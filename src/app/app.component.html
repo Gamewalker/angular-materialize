@@ -1,25 +1,24 @@
 <style media="screen">
-  .sidebar {
-    height: 100vh;
-  }
+	.sidebar {
+		height: 100vh;
+	}
 </style>
 
 <div class="row">
-  <div class="col s3 sidebar card">
-    <div class="container">
-      <h4>Sidebar</h4>
-      <p>This is some sidebar content.</p>
+	<div class="col s3 sidebar card">
+		<div class="container">
+			<h4>Sidebar</h4>
+			<p>This is some sidebar content.</p>
 
-      <ul>
-        <li><a routerLink="../test1">Test1</a></li>
-        <li><a routerLink="../test2">Test2</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="col s9">
-    <div class="container">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
+			<ul>
+				<li><a routerLink="../test1">Test1</a></li>
+				<li><a routerLink="../test2">Test2</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col s9">
+		<div class="container">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
 </div>
-
